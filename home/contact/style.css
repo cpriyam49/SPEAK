@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #000718; 
+    background: #000000; 
 }
 body, input,textarea, a{
     font-family: 'Roboto', sans-serif;
@@ -92,13 +92,14 @@ body, input,textarea, a{
     float: right;
     padding:40px 25px 35px 25px;
     border-radius: 0px 30px 30px 0px;
-    background: #ecf0f3;
+    background: #fafbfc;
 }
 .form-title{
     text-align: left;
     margin-left: 23px;
     font-size: 28px;
     letter-spacing: 0.5px;
+    color: #F44770;
 }
 .form-fields{
     display: table;
