@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+a:link 
+{
+  color: rgb(199, 191, 223);
+}
+
+.page-wrapper {
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  padding-left: calc(5% - 16px);
+  padding-right: calc(5% - 16px);
+  /* padding: 0 5%; */
+}
+
+body {
+  background-image: url("assets/bg.jpeg");
+  overflow-y: hidden;
+}
+
+nav {
+  /* min-height: 0px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.05);
+  padding: 0 5%; */
+  display: flex;
+  /* flex-direction:row; */
+  align-content: center;
+  width:100%; 
+  height:auto;
+  justify-content: center;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+  
+}
+
+#logo {
+  height: auto;
+  width: 250px;
+  border-radius: 0%;
+  
+  /* margin-left: 579px;
+  box-shadow: none; */
+  
+}
+
+.profile-box {
+  background: #FFFFFF;
+  background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(40px);
+  border-radius: 16px;
+  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+  border-radius: 3px;
+  margin: 16px 16px;
+  padding: 16px 16px;
+  width: 200px;
+  text-align: center;
+  transition: 300ms;
+  flex-grow: 1;
+  opacity: 0.90;
+}
+
+.profile-box:hover {
+  /* box-shadow: 0 2px 6px 0 rgba(47,83,151,0.40); */
+  box-shadow: 0 0 20px 9px rgba(0,0,0,0.03);
+}
+
+
+
+#searchField {
+  width: 100%;
+  background: rgba(
+    245,247,250,0.20);
+  border: 1px solid #F5F7FA;
+  border-radius: 6px;
+  padding: 8px 16px;
+}
+
+::placeholder {
+  color: #98A0A6;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+h3 {
+  font-weight: 1000;
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+
+h4 {
+  transition: 500ms;
+  font-weight: 1000;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #98A0A6;
+  cursor: pointer;
+}
+
+h4:hover {
+  color: #705855;
+  text-decoration: underline;
+}
+
+#assign,
+#view {
+  width: 100%;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 8px 0;
+  border-radius: 100px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+/* #assign:hover,  */
+/* #view:hover { */
+  /* background-color: #705855; */
+  /* color: white; */
+  /* box-shadow: 0 10px 20px 0 rgba(80,123,252,0.50); */
+/* } */
+
+#assign {
+  float: left;
+}
+
+#view {
+  float: right;
+}
+
+i {
+  margin-right: 8px;
+}
