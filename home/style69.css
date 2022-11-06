@@ -353,7 +353,7 @@ header .container {
   position: absolute;
   z-index: 10;
   width: 500px;
-  bottom: -915px;
+  bottom: -930px;
   right: 0px;
   opacity: 0.1;
   transform: scaleX(-1);
