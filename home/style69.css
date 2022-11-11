@@ -133,11 +133,24 @@ header .container {
 
 #b1 {
   width: 32%;
+  /* z-index: ; */
 }
 
 #b2{
   width: 32%;
 }
+
+/* main::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top,#F1F8FC,transparent);
+  z-index: 100;
+} */
+
+
 
 /* About styling starts from here */
 
@@ -146,10 +159,8 @@ header .container {
   border-radius: 45px;
   background: linear-gradient(315deg, #d9dfe3, #ffffff);
   box-shadow:  -35px -35px 70px #c1c6ca,
-             35px 35px 70px #ffffff;
+  35px 35px 70px #ffffff;
 } */
-
-
 
 #about {
 	padding: 40px;
@@ -157,23 +168,23 @@ header .container {
   background: #F1F8FC;
   /* background: linear-gradient(180deg, rgba(249,239,239,1) 0%, rgba(78,54,51,1) 100%); */
     /* opacity: 0.6; */
-    color: #705855;
+  color: #705855;
   
 }
 
 #abt {
-
   justify-content: center;
+  align-items: center;
 
 }
 
 
-#about p {
+#about div {
 	font-size: 1.2rem;
 	max-width: 600px;
-	margin: auto;
-    color: #705855;
-    margin-top: 50px;
+	margin: auto; 
+  color: #705855;
+  margin-top: 60px;
 }
 
 #about h2 {
@@ -190,6 +201,7 @@ header .container {
   border-radius: 16px;
   text-transform: capitalize;
   transition: 0.3s;
+  transform: translateY(2px);
 }
 
 .btn:hover {
@@ -289,7 +301,8 @@ header .container {
 }
 
 .toggle-btn {
-  display: inline-block;
+  /* display: inline-block; */
+  display: none;
   border: none;
   background: var(--darkTwo);
   color: var(--backgroundColor);
@@ -328,11 +341,22 @@ header .container {
 
 .shape {
   position: absolute;
-  z-index: 0;
+  z-index: 10;
   width: 500px;
-  bottom: -180px;
+  bottom: -150px;
   left: -15px;
   opacity: 0.1;
+  
+}
+
+.shape2 {
+  position: absolute;
+  z-index: 10;
+  width: 500px;
+  bottom: -930px;
+  right: 0px;
+  opacity: 0.1;
+  transform: scaleX(-1);
 }
 
 .copy {

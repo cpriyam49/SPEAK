@@ -20,7 +20,8 @@ a:link
 
 body {
   background-image: url("assets/bg.jpeg");
-  overflow-y: hidden;
+  background-size: 100%;
+  /* overflow-y: hidden; */
 }
 
 nav {
